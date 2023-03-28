@@ -445,7 +445,7 @@ if plot_flag > 0
     hold on;
     if clf_flag > 0
         t2 = linspace(0,t_end,length(x_sim_clf(:,2)));
-        %plot(t2,x_sim_clf(:,2),'Color','#77AC30','LineStyle','--','LineWidth',2);
+        plot(t2,x_sim_clf(:,2),'Color','#77AC30','LineStyle','--','LineWidth',2);
     end
     if cbf_flag > 0
         t3 = linspace(0,t_end,length(x_sim_cbf(:,2)));
@@ -456,7 +456,7 @@ if plot_flag > 0
     xlabel('time');
     ylabel('y');
     set(gca,'FontSize', 12);
-    legend('SDCBF + nominal','CBF + nominal','nominal controller');
+    legend('SDCBF + nominal','nominal controller','CBF + nominal');
 %     t1 = linspace(0,t_end,length(x_sim_sparse(:,2)));
 %     plot(t1,x_sim_sparse(:,2),'Color','#0072BD','LineWidth',2);
 %     hold on;
@@ -503,5 +503,5 @@ if plot_flag > 0
     ylabel('y');
     zlabel('z');
     set(gca,'FontSize', 12);
-    legend('SDCBF + nominal','CBF + nominal','nominal controller');
+    legend('SDCBF + nominal','nominal controller','CBF + nominal');
 end

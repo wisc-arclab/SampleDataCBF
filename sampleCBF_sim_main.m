@@ -398,7 +398,7 @@ if plot_flag > 0
         xlabel('x_1');
         ylabel('x_2');
         set(gca,'FontSize', 12);
-        legend('SDCBF-CLF','CBF-CLF','CLF only');
+        legend('SDCBF-CLF','CLF only','CBF-CLF');
     elseif strcmp(param.example,'spring')
         %%%% Plot time and x1
         t1 = linspace(0,t_end,length(x_sim_sparse(:,1)));
@@ -420,7 +420,7 @@ if plot_flag > 0
         xlabel('time');
         ylabel('x_1');
         set(gca,'FontSize', 12);
-        legend('SDCBF + nominal','CBF + nominal','nominal controller');
+        legend('SDCBF + nominal','nominal controller','CBF + nominal');
         %legend('traj with initreach and CORA range bounding','traj with CLF controller','initial constraint');
 %         gtext('Initial constraint','Color','red','FontSize',12);
 %         gtext('CBF','Color','blue','FontSize',12);
@@ -450,7 +450,7 @@ if plot_flag > 0
         xlabel('x_1');
         ylabel('x_2');
         set(gca,'FontSize', 12);
-        legend('SDCBF + nominal','CBF + nominal','nominal controller');
+        legend('SDCBF + nominal','nominal controller','CBF + nominal');
         %legend('traj with initreach and CORA range bounding','traj with CLF controller','new constraint','original contraint');
 %         gtext('Initial constraint','Color','red','FontSize',12);
 %         gtext('CBF','Color','blue','FontSize',12);
