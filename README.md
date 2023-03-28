@@ -1,5 +1,5 @@
-# SampleDataCBF: Sampled-Data Control Barrier Function (CBF)
-This repository contains source code for the paper [Control barrier function meets interval analysis: Safety-critical control with measurement and actuation uncertainties](https://ieeexplore.ieee.org/document/9867681). The arxiv verions of the paper can be found [here](http://128.84.4.34/abs/2110.00915).
+# SampleDataCBF: Sampled-Data Control Barrier Function
+This repository contains source code for the paper [Control barrier function meets interval analysis: Safety-critical control with measurement and actuation uncertainties](https://ieeexplore.ieee.org/document/9867681). The arxiv version of the paper can be found [here](http://128.84.4.34/abs/2110.00915).
 The repository contains MATLAB code that has been tested in MATLAB R2022b.
 
 If you use this code, we would appreciate it if you cited the paper as follows:
@@ -41,19 +41,18 @@ For a quick-start, inspect the file `sampleCBF_sim_main.m` and run it.
 You should see the following plot.
 
 <p align="center">
-  <img src="https://github.com/wisc-arclab/SampleDataCBF/tree/master/img/example_jankovic.png" width="500" alt="Jancovic Example Path">
+  <img src="https://github.com/wisc-arclab/SampleDataCBF/blob/master/img/example_jankovic.png" width="500" alt="Jancovic Example Path">
 </p>
 
 You can also test the mass-spring-damper example by setting
 ```
 param.example = 'spring';
-
 ```
 And you will get the following plots.
 
 <p float="center">
-  <img src="https://github.com/wisc-arclab/SampleDataCBF/tree/master/img/example_spring_states.png" width="400" alt="Spring Example States">
-  <img src="https://github.com/ARC-Lab-Research-Group/FlatVCP/blob/master/img/example_spring_x1.png" width="400" alt="Spring Example x1">
+  <img src="https://github.com/wisc-arclab/SampleDataCBF/blob/master/img/example_spring_states.png" width="400" alt="Spring Example States">
+  <img src="https://github.com/wisc-arclab/SampleDataCBF/blob/master/img/example_spring_x1.png" width="400" alt="Spring Example x1">
 </p>
 
 ## Acknowledgements
