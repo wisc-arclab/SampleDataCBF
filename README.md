@@ -16,7 +16,7 @@ If you use this code, we would appreciate it if you cited the paper as follows:
 
 For more information about our work, please visit [ARC Lab@UW-Madison](https://xu.me.wisc.edu/).
 
-## MATLAB
+## Usage
 ### Dependencies & Installation
 The MATLAB implementation requires a working installation of
 [CORA](https://tumcps.github.io/CORA/). This repository also contains a modified fork of [SparsePOP](https://sparsepop.sourceforge.io/) in the folder `SparsePOP303`. We recommend using [MOSEK](https://www.mosek.com/) as the Semi-Definite Programming (SDP) solver for [SparsePOP](https://sparsepop.sourceforge.io/), noting that you will need a license (free academic license available). However, other SDP solvers supported by [SparsePOP](https://sparsepop.sourceforge.io/) should also work, such as [SeDuMi](https://github.com/sqlp/sedumi) and [SDPT3](https://github.com/sqlp/sdpt3).
