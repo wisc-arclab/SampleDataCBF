@@ -55,5 +55,13 @@ And you will get the following plots.
   <img src="https://github.com/wisc-arclab/SampleDataCBF/blob/master/img/example_spring_x1.png" width="400" alt="Spring Example x1">
 </p>
 
+The simulation of the linearized 6-dimension quadcopter model can be executed by running the file `sampleCBF_sim_DI_main.m` and you will get the following plots.
+
+<p float="center">
+  <img src="https://github.com/wisc-arclab/SampleDataCBF/blob/master/img/example_di.png" width="400" alt="DI Example States">
+  <img src="https://github.com/wisc-arclab/SampleDataCBF/blob/master/img/example_di_y.png" width="400" alt="DI Example y">
+</p>
+
+
 ## Acknowledgements
 This work was supported by the University of Wisconsin.
