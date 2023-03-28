@@ -6,7 +6,7 @@
 % control input - u = [xddot; yddot; zddot]
 % dynamics - X' = [xdot; ydot; zdot; xddot; yddot; zddot]
 
-clear
+clc;clear all;
 
 %% set the options of the simulation
 

@@ -1,5 +1,5 @@
 % Simulation of the 2-dimension model using the sample-data CBF
-clear
+clc;clear all;
 
 %% set the options of the simulation
 
@@ -36,12 +36,12 @@ if actuator_uncertain
 end
 
 % set the simulation time and sampling time
-t_end = 2; % total simulation time length
+t_end = 10; % total simulation time length
 dt = 0.01; % sampling time for the digital system
 sim_dt = 0.01; % sampling time for solving the dynamic ODEs
 
 % set the name of the example
-param.example = 'spring'; % Current options are 'jankovic' or 'spring'
+param.example = 'jankovic'; % Current options are 'jankovic' or 'spring'
 
 %% Load example variables and functions
 
